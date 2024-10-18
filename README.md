@@ -42,120 +42,109 @@ $ npm start
 - Run http://localhost:3000/products
 - Click create product and enter product info
 
-## Support
-
-- Q/A: https://webacademy.pro/oldamazona
-- Contact Instructor: [Basir](mailto:basir.jafarzadeh@gmail.com)
-
 ## Video Tutorials
 
-### [00:02:00 Part 01- Introduction](https://www.youtube.com/watch?v=Fy9SdZLBTOo&t=120s)
 
-It gives you an overview of the tutorial to build an eCommerce website like Amazon.
-
-### [00:08:26 Part 02- Install Tools](https://www.youtube.com/watch?v=Fy9SdZLBTOo&t=506s)
+### Install Tools
 
 You need to install a code editor and a web browser to start web development. In this part, we will prepare the environment to start coding.
 
-### [00:12:36 Part 03- Website Template](https://www.youtube.com/watch?v=Fy9SdZLBTOo&t=756s)
+### Website Template
 
 In this part, you create a web template for the eCommerce website.
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/56kqn8m5n1m9fejdoxkz.png)
 
-### [00:29:47 Part 04- Products List](https://www.youtube.com/watch?v=Fy9SdZLBTOo&t=1787s)
+### Products List
 
 We will create a list of products as static HTML elements.
 
-### [00:41:54 Part 05- Create Sidebar](https://www.youtube.com/watch?v=Fy9SdZLBTOo&t=2514s)
+### Create Sidebar
 
 We will create a hamburger menu that shows and hide the sidebar. Also, we design the details page of the products.
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/3sceblg6i6790minhaxg.jpg)
 
-### [00:52:39 Part 06- Create React App](https://www.youtube.com/watch?v=Fy9SdZLBTOo&t=3159s)
+### Create React App
 
 This part is about the frontend. We use React library to build the UI elements.
 
-### [01:01:09 Part 07- Render Products](https://www.youtube.com/watch?v=Fy9SdZLBTOo&t=3669s)
+### Render Products
 
 This is the home page of e-commerce. It shows a list of products.
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/hqiwteg10o8a2cnq0wwi.jpg)
 
-### [01:06:30 Part 08- Product Details](https://www.youtube.com/watch?v=Fy9SdZLBTOo&t=3990s)
+### Product Details
 
 When the user clicks on a product there should a page to show details about that product. This lesson is all about making an attractive details page.
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/csskvzbcmz4ypki2xjgk.jpg)
 
-### [01:30:53 Part 09- Create Node Server](https://www.youtube.com/watch?v=Fy9SdZLBTOo&t=5453s)
+### Create Node Server
 
 This part is about Node and Express. They are the popular framework to create a web server using JavaScript language. We will create a MongoDB database and save and retrieve the admin user.
 
-### [01:39:52 Part 10- Fetch Server Data](https://www.youtube.com/watch?v=Fy9SdZLBTOo&t=5992s)
+### Fetch Server Data
 
 In this lesson, we use React Hooks to fetch data from the server. We use the axios library to do this job in a modern async/await style.
 
-### [01:47:55 Part 11- Manage State With Redux](https://www.youtube.com/watch?v=Fy9SdZLBTOo&t=6475s)
+### Manage State With Redux
 
 When it comes to handling multiple forms with their data nothing is better than state management. We use Redux in this lesson to handle complex state and keep the app behavior predictable.
 
-### [02:07:11 Part 12- Add Redux To Details](https://www.youtube.com/watch?v=Fy9SdZLBTOo&t=7631s)
+### Add Redux To Details
 
 In this part, we move the details page state to Redux. First, we create reducers then define actions and connect them to the details component.
 
-### [02:29:23 Part 13- Shopping Cart Screen](https://www.youtube.com/watch?v=Fy9SdZLBTOo&t=8963s)
+### Shopping Cart Screen
 
 Shopping Cart is the heart of any e-commerce website. We focus on creating a user-friendly shopping cart using React and Redux.
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/fyzf0no5ej1fgxp5972e.png)
 
-### [03:08:11 Part 14- Connect MongoDB](https://www.youtube.com/watch?v=Fy9SdZLBTOo&t=11291s)
+### Connect MongoDB
 
 This lesson is about persisting data on the MongoDB database. We use mongoose package to create models and save and retrieve data from the database.
 
-### [03:21:35 Part 15- Sign In User](https://www.youtube.com/watch?v=Fy9SdZLBTOo&t=12095s)
+### Sign In User
 
 We need to register the user before redirecting them to the checkout. In this part, we will create forms for getting user info and save them in the database.
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/92coj0rezr5508vhfv34.png)
 
-### [03:56:02 Part 16- Manage Products](https://www.youtube.com/watch?v=Fy9SdZLBTOo&t=14162s)
+### Manage Products
 
 Admin should be able to define products and update the count in stock whenever they like. This page is about managing ECommerce products.
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/154a5zk6vfapukjaxwyu.png)
 
-### [04:38:43 Part 17- Checkout Wizard](https://www.youtube.com/watch?v=Fy9SdZLBTOo&t=16723s)
+### Checkout Wizard
 
 In this part, we implement the checkout wizard including sign in, shipping info, payment method, and place order.
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/l8w3g9mc3ccijt70wpf3.png)
 
-## Only On Udemy
 
-Following parts are on my udemy course. [Get it by 90% discount](https://www.udemy.com/course/build-ecommerce-website-like-amazon-react-node-mongodb/?couponCode=BASIR1)
-
-### Part 18- Order Details Screen
+### Order Details Screen
 
 It shows all details about an order includeing shipping, payments and order items. Also it is possible for admin to manage orders like set them as delivered.
 
-### Part 19- Connect to PayPal
+### Connect to PayPal
 
 This parts create PaypalButton component to show paypal payment button on the screen.
 when users click on it, they will be redirected to paypal website to make the payment.
 after payment users will be redirected to details page of the order.
 
-### Part 20- Manage Order Screen
+### Manage Order Screen
 
 This is an admin page to manage list of orders. Admin can delete an order or set it as delivered.
 
-### Part 21- User Profile Screen
+### User Profile Screen
 
 When user click on thier name on the header menu, this page appears. It consists of two sections. First an profile update form and second order history.
 
-### Part 22- Filter and Sort Products
+### Filter and Sort Products
 
 In the home page, right after header, there is a filter bar to filter products based on their name and description. also it is possible to sort product based on prices and arrivals.
 
-### Part 23- Deploy Website on Heroku
+### Deploy Website on Heroku
 
 This section explains all steps to publish the ecommerce website on heroku. first you need to create a cloud mongodb and the make an account on heroku.
 
-### Part 24- Rate and Review Products
+### Rate and Review Products
 
 This part shows list of reviews by users for each products. also it provides a form to enter rating and review for every single product. also it update the avg rating of each product by user ratings.
 
@@ -190,7 +179,7 @@ This part shows list of reviews by users for each products. also it provides a f
 29. save review in product.reviews
 30. update avg rating
 
-### Part 25- Upload Product Images On Local Server
+### Upload Product Images On Local Server
 
 Admin shoud be able to uploads photos from their computer. This section is about uploading images on local server ans aws s3 cloud server.
 
@@ -212,7 +201,7 @@ Admin shoud be able to uploads photos from their computer. This section is about
 16. set image and set uploading
 17. check result
 
-### Part 26- Upload Product Images On AWS S3
+### Upload Product Images On AWS S3
 
 This section is about uploading images amazon aws s3 cloud server.
 
@@ -237,5 +226,4 @@ This section is about uploading images amazon aws s3 cloud server.
 
 ## Summary
 
-In this tutorial, we have made an eCommerce website like Amazon. Feel free to change this project based on your needs and add it to your portfolio.
-Also, I will love to hear your comment about this React and Node tutorial. Please share your thoughts here.
+In this, we have made an eCommerce website like Amazon.
